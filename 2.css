@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .ad {
-  /* background-image: url(https://picsum.photos/400/400); */
+  background-image: url(https://picsum.photos/400/400);
   width: 400px;
   height: 400px;
 }
