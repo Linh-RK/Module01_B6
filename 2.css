@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ad {
+  /* background-image: url(https://picsum.photos/400/400); */
+  width: 400px;
+  height: 400px;
+}
+.opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+.top {
+  background-color: rgb(116, 18, 18);
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  display: flex;
+  width: 120px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.rubik {
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  margin: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+.fa {
+  background-color: rgb(116, 18, 18);
+  border: none;
+}
+.right {
+  color: white;
+
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  /* display: flex;
+  flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  top: 40px;
+}
+.bot {
+  position: absolute;
+  bottom: 0px;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.fa-cog:before,
+.fa-gear:before {
+  content: "\f013";
+  line-height: 50px;
+}
